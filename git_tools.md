@@ -21,6 +21,9 @@ This will add file being reset to git staging (from commit_hash), and old versio
 
 #### Git UI tools
 `git gui`
+
 `gitk`
+
 https://www.gitkraken.com/
+
 https://gitextensions.github.io/
