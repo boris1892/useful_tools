@@ -1,6 +1,8 @@
 ## Useful git commands 
 
-Revert one file in the commit. First see the differences:
+#### Revert one file in the commit. 
+
+First check the differences:
 
 `git diff <commit_hash> <file_path>`
 
