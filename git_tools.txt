@@ -1,3 +1,5 @@
+## Useful git commands 
+
 Revert one file in the commit. First see the differences:
 
 git diff <commit_hash> <file_path>
