@@ -1,5 +1,7 @@
 ## Shell Tools, explained
 
+### Kill JBoss (for example) process dynamically
+
 `kill -9 ``ps -ef |grep jboss|grep -v grep |cut -c7-15|sed 's/ //g'`` `
 
 `sed 's/ //g'`: trims the whitespace
@@ -15,3 +17,7 @@
 ` ``  `` `: outputs result of this command as a string
 
 `kill -9`: kills the process
+
+### Recursive Grep
+
+`grep -r --include "*.txt" texthere .`
