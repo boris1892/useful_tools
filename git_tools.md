@@ -1,6 +1,6 @@
 ## Useful git commands 
 
-#### Revert one file in the commit. 
+### Revert one file in the commit. 
 
 First check the differences:
 
@@ -19,7 +19,7 @@ then reset:
 This will add file being reset to git staging (from commit_hash), and old version (one being removed from commit) to working directory.
 
 
-#### Git UI tools
+### Git UI tools
 `git gui`
 
 `gitk`
@@ -27,3 +27,7 @@ This will add file being reset to git staging (from commit_hash), and old versio
 https://www.gitkraken.com/
 
 https://gitextensions.github.io/
+
+### Git prunning
+
+`git remote prune origin`
