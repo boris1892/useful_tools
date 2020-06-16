@@ -21,3 +21,9 @@
 ### Recursive Grep
 
 `grep -r --include "*.txt" texthere .`
+
+### Grep for multiple patterns
+
+This will grep text.log for one of 3 patterns: "Request", "Response" or "soap:Envelope"
+
+`grep -E -- 'Request|Response|<soap:Envelope' text.log`
