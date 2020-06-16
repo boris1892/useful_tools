@@ -14,7 +14,7 @@
 
 `ps -ef`: list all processes
 
-` ``  `` `: outputs result of this command as a string
+` \`  \` `: outputs result of this command as a string
 
 `kill -9`: kills the process
 
