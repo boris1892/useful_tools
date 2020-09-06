@@ -35,4 +35,5 @@ cinammon --replace
 ### Restart VBox copy-paste 
 
 `sudo killall VBoxClient`
+
 `sudo VBoxClient-All`
