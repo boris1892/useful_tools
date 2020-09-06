@@ -27,3 +27,12 @@
 This will grep text.log for one of 3 patterns: "Request", "Response" or "soap:Envelope"
 
 `grep -E -- 'Request|Response|<soap:Envelope' text.log`
+
+### Restart Cinammon without closing windows
+
+cinammon --replace
+
+### Restart VBox copy-paste 
+
+`sudo killall VBoxClient`
+`sudo VBoxClient-All`
