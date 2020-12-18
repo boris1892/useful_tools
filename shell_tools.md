@@ -68,3 +68,8 @@ Replace `cron` with `anacron` that will catch up with jobs that didn't execute d
 `tune2fs -m 1 /dev/disk` ( replace /dev/disk with partition that is full) 
 
 `tune2fs -m 5 /dev/disk` ( return reserved block count to 5%)
+
+### Rotate logs manually
+
+`sudo logrotate -d /etc/logrotate.conf`
+
