@@ -37,3 +37,19 @@ cinammon --replace
 `sudo killall VBoxClient`
 
 `sudo VBoxClient-All`
+
+### cron - edit, reload, check logs
+
+Define cron tasks:
+
+` crontab -e`
+or
+`sudo crontab -e`
+
+Verify that cron logging is enabled:
+`vi /etc/rsyslog.conf`
+Restart rsyslog to take new config into account (just in case, it is not clear if it reloads on its own)
+`sudo service rsyslog restart`
+
+Check cron log (file defined in rsyslog.conf)
+`vi /var/log/cron.log`
