@@ -57,3 +57,8 @@ Restart rsyslog to take new config into account:
 
 Check cron log (file defined in rsyslog.conf)
 `vi /var/log/cron.log`
+
+Replace `cron` with `anacron` that will catch up with jobs that didn't execute due to computer being turned off:
+
+`sudo apt-get update && sudo apt-get install anacron`
+
