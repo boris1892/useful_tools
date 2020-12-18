@@ -46,9 +46,13 @@ Define cron tasks:
 or
 `sudo crontab -e`
 
+Reload cron configuration:
+
+`sudo service cron reload`
+
 Verify that cron logging is enabled:
 `vi /etc/rsyslog.conf`
-Restart rsyslog to take new config into account (just in case, it is not clear if it reloads on its own)
+Restart rsyslog to take new config into account:
 `sudo service rsyslog restart`
 
 Check cron log (file defined in rsyslog.conf)
