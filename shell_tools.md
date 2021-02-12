@@ -65,7 +65,7 @@ Replace `cron` with `anacron` that will catch up with jobs that didn't execute d
 ### Filesystem reserved space
 `tune2fs -l /dev/disk |grep Reserved` ( this will tell you the current reserved blocks) 
 
-`tune2fs -m 1 /dev/disk` ( replace /dev/disk with partition that is full) 
+`tune2fs -m 1 /dev/disk` ( sets reserved space to 1% in /dev/disk; replace /dev/disk with partition that is full) 
 
 `tune2fs -m 5 /dev/disk` ( return reserved block count to 5%)
 
