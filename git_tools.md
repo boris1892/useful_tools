@@ -24,9 +24,9 @@ This will add file being reset to git staging (from commit_hash), and old versio
 
 `gitk`
 
-https://www.gitkraken.com/
+https://www.gitkraken.com/ - free for public repositories
 
-https://gitextensions.github.io/
+https://gitextensions.github.io/ - Windows Explorer integration for Git
 
 ### Git prunning
 
